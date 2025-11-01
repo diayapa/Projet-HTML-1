@@ -1,0 +1,53 @@
+nav ul {
+ 
+    list-style-type: none; /* Supprime les puces par défaut */
+    padding: 0;          
+    margin: 0;            
+    background-color:dimgray ;/* 🟦 Couleur de fond unifiée (Bleu) */
+    justify-content: left; 
+}
+
+nav ul li {
+    display: inline-block; /* Aligne les éléments côte à côte */
+}
+
+nav ul li a {
+    /* Donne de l'espace cliquable autour du texte */
+    display: block; 
+    padding: 10px 15px; 
+    text-decoration: none; /* Supprime le soulignement */
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    background-color:black;
+    cursor: pointer;          /* Affiche la main du pointeur */
+    color:white;
+}
+
+h1{
+text-align: center; 
+padding: 10px;
+background-color: #333; 
+color: white; 
+margin-top: 20px;
+}
+
+h2{
+text-align: left; 
+padding: 10px;
+ background-color: #333; 
+ color: white; 
+ margin-top: 20px;
+}
+
+#piedpage{
+text-align:center; 
+/*padding: 1px;*/ 
+background-color: #333; 
+color: white;
+/*margin-top: 2px;
+margin-left:0px;
+margin-right:0px;*/
+}
